@@ -1,12 +1,43 @@
-docs/_build
-*.pyc
-*.pyo
-*.egg-info
-bin
-build
-develop-eggs
-dist
-eggs
-parts
-.DS_Store
+# [vim]
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# persistent undo 
+*.un~
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+
+# [virtualenv]
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+venv
+pip-selfcheck.json
+
+# [python]
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
 .installed.cfg
+*.egg
